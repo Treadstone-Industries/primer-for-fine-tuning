@@ -1,0 +1,17 @@
+{
+  "id": "avengers_list",
+  "name": "AvengersList",
+  "status": "alpha",
+  "a11yReviewed": false,
+  "stories": [],
+  "importPath": "@primer/react",
+  "props": [
+    {
+      "name": "count",
+      "type": "number",
+      "defaultValue": "",
+      "description": "Number of avengers to be displayed, defaults to all"
+    }
+  ],
+  "subcomponents": []
+}
