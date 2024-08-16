@@ -18,6 +18,7 @@ Continue typing `StarkPatentTracker` (one of the new components) and on each cha
 
 ## New Components
 
+- `<AmortizationTable />`
 - `<AvengersList />`
 - `<NotificationBell />`
 - `<StarkPatentTracker />`

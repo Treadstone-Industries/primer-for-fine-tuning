@@ -1,0 +1,35 @@
+{
+  "id": "amortization_table",
+  "name": "AmortizationTable",
+  "status": "alpha",
+  "a11yReviewed": false,
+  "stories": [],
+  "importPath": "@primer/react",
+  "props": [
+    {
+      "name": "durationInYears",
+      "type": "number",
+      "defaultValue": "",
+      "description": "Duration in years"
+    },
+    {
+      "name": "monthlyPayment",
+      "type": "number",
+      "defaultValue": "",
+      "description": "Monthly payment"
+    },
+    {
+      "name": "principal",
+      "type": "number",
+      "defaultValue": "",
+      "description": "Principal in dollars"
+    },
+    {
+      "name": "ratePercent",
+      "type": "number",
+      "defaultValue": "",
+      "description": "Rate percent. A number between 0 and 100. So a 3% rate would be 3"
+    }
+  ],
+  "subcomponents": []
+}
