@@ -1,0 +1,17 @@
+{
+  "id": "stark_patent_tracker",
+  "name": "StarkPatentTracker",
+  "status": "alpha",
+  "a11yReviewed": false,
+  "stories": [],
+  "importPath": "@primer/react",
+  "props": [
+    {
+      "name": "Patents",
+      "type": "Array<{id: string, title: string}>",
+      "defaultValue": "",
+      "description": "Patents to be displayed"
+    }
+  ],
+  "subcomponents": []
+}

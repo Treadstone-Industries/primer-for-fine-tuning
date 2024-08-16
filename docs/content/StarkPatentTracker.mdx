@@ -1,0 +1,23 @@
+---
+componentId: notification_bell
+title: StarkPatentTracker
+status: Alpha
+source: https://github.com/primer/react/tree/main/packages/react/src/StarkPatentTracker/StarkPatentTracker.tsx
+storybook: '/react/storybook/?path=/story/components-notificationbell--default'
+---
+
+import data from '../../packages/react/src/StarkPatentTracker/StarkPatentTracker.docs.json'
+
+The StarkPatentTracker component is a simple list of patents.
+
+## Examples
+
+```jsx live
+<StarkPatentTracker patents={[{id: '1234', title: 'Patent Title'}]} />
+```
+
+`Patents` is an array of objects with `id` and `title` properties.
+
+## Props
+
+<ComponentProps data={data} />
