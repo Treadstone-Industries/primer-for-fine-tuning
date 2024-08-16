@@ -1,0 +1,10 @@
+.changeset
+dist
+lib
+!codemods/lib/**
+lib-esm
+storybook-static
+docs/.cache
+docs/public
+**/.next/**
+packages/react/src/legacy-theme/ts/color-schemes.ts
