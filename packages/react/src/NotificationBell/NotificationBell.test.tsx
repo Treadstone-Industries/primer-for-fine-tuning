@@ -22,12 +22,8 @@ describe('NotificationBell', () => {
 
   it('calls onClick when button is clicked', () => {
     const onClick = jest.fn()
-    const {getByText} = render(
-      <NotificationBell onClick={onClick} unreadCount={1}>
-        NotificationBell
-      </NotificationBell>,
-    )
-    fireEvent.click(getByText('NotificationBell'))
+    const {getByText} = render(<NotificationBell onClick={onClick} unreadCount={1} />)
+    fireEvent.click(getByText('Notifications (1)'))
     expect(onClick).toHaveBeenCalled()
   })
 })
