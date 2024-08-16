@@ -1,0 +1,29 @@
+{
+  "id": "notification_bell",
+  "name": "NotificationBell",
+  "status": "alpha",
+  "a11yReviewed": false,
+  "stories": [],
+  "importPath": "@primer/react",
+  "props": [
+    {
+      "name": "children",
+      "type": "ReactNode",
+      "defaultValue": "",
+      "description": "Children of NotificationBell."
+    },
+    {
+      "name": "onClick",
+      "type": "() => void",
+      "defaultValue": "",
+      "description": "Callback when the NotificationBell is clicked."
+    },
+    {
+      "name": "unreadCount",
+      "type": "number",
+      "defaultValue": "",
+      "description": "Number of unread notifications."
+    }
+  ],
+  "subcomponents": []
+}
